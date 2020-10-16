@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-bar">
+      <h1>
+        <a id="heroLogo" href="./index.html">days</a>
+      </h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="Home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="./img/forest.png" alt="" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-disc">
+          <div class="title">
+            <h2>
+              Freedome at your <span class="mountain-span">fingertips.</span>
+              <div class="title-swipe t-swipe1"></div>
+            </h2>
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              saepe reprehenderit maiores consequatur sapiente sequi id numquam
+              sed at aut.
+            </p>
+          </div>
+          <a class="explore mountain-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="./img/hike.png" alt="hike" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-disc">
+          <div class="title">
+            <h2>
+              Freedome at your <span class="hike-span">fingertips.</span>
+              <div class="title-swipe t-swipe2"></div>
+            </h2>
+
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              saepe reprehenderit maiores consequatur sapiente sequi id numquam
+              sed at aut.
+            </p>
+          </div>
+
+          <a class="explore hike-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./img/fashion.png" alt="fashion" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-disc">
+          <div class="title">
+            <h2>
+              Freedome at your <span class="fashion-span">fingertips.</span>
+              <div class="title-swipe t-swipe3"></div>
+            </h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              saepe reprehenderit maiores consequatur sapiente sequi id numquam
+              sed at aut.
+            </p>
+          </div>
+          <a class="explore fashion-exp" href="./Fashion/">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-links">
+      <ul>
+        <h3>Twitter</h3>
+        <h3>Youtube</h3>
+        <h3>Instagram</h3>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+          repellendus adipisci sapiente saepe voluptates labore dolorum itaque
+          obcaecati fugiat aspernatur!
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
